@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/thanks.css">
+    <link rel="stylesheet" href="../css/menu-mobile.css">
+    <link rel="icon" href="../icons/MarcourosLogo.ico">
+    <title>Marcouros</title>
+</head>
+
+<body>
+    <header class="header ">
+        <div>
+            <nav class="navbar">
+                <a href="../default.php">
+                    <img class="logo" src="../assets/MarcourosLogo.png" alt="">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="../default.php">Home</a></li>
+                        <li><a href="../default.php#sobre-nos" >Sobre Nós</a></li>
+                        <li><a href="../default.php#Servicos">Serviços</a></li>   
+                        <li><a href="../default.php#Ctc">Contato</a></li>
+                    </ul>
+                    
+                </nav>
+
+                <div class="menu-hamburguer">
+                    <input type="checkbox" id="menu-hamburguer" class="input-menu-hamburguer">
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="navMobile">
+
+        <h2>Menu</h2>
+
+       
+        <ul>
+            <li><a onclick="fecharNav()" href="default.php">Home</a></li>
+            <li><a onclick="fecharNav()" href="#Servico">Serviços</a></li>
+            <li><a onclick="fecharNav()" href="Pages/Bancos.html">Bancos</a></li>
+            <li><a onclick="fecharNav()" href="">Volantes</a></li>
+            <li><a onclick="fecharNav()" href="">Laterais</a></li>
+            <li><a onclick="fecharNav()" href="">Paineís</a></li>
+            <li><a style="cursor: pointer;" onclick="fecharNav(),scrollToSobre()" >Sobre Nós</a></li>
+            <li><a onclick="fecharNav()" href="#Ctc">Contato</a></li>
+            
+        </ul>
+
+
+
+
+
+    </nav>
+
+    <section class="banner" id="banner">
+
+        <article class="banner-imagem">
+            <h1>Obrigado!</h1>
+            <p>Logo entraremos em contato</p><br>
+            <a href="../default.php">Voltar</a>
+        
+                
+        
+            
+
+           
+
+        </article>
+
+    </section>
+
+    
+ 
+    <!-- BOTAO WHATSAPP -->
+   <!-- BOTAO WHATSAPP -->
+  
+   <a  class="btnInsta" href="#desc-zen">
+    <img width="50" src="../icons/upperr.png" alt="" style="cursor: pointer;" >
+</a>
+<a target="_blank" class="btnWhatsapp" href="https://wa.me/5511914463667?text=Olá! Vim pelo site! Gostaria de saber mais.">
+    <img width="50" src="../icons/whatsapp.png" alt="">
+</a>
+
+<!--  -->
+
+<footer id="footer">
+  <section class="LogoMarca">
+        <div>
+            
+            <img class="logo" src="assets/MarcourosLogo.png" alt="">
+        </div>
+        
+        <div class="redesSociais">
+            <div>
+                <a target="_blank" href="https://www.facebook.com/MarcourosBrasil/">
+                    <img src="../icons/facebook.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a target="_blank" href="https://www.instagram.com/marcouros/">
+                    <img src="../icons/instagram (2).png" alt="">
+                </a>
+            </div>
+            <div>
+            <a target="_blank" href="">
+                <img src="../icons/linkedin.png" alt="">
+            </a>
+            </div>
+        </div>
+        <p id="marcouros">©Marcouros</p>
+        <p id="marcourosT">Todos os direitos reservados</p>
+    </section>
+
+    <div class="listFooter">
+        <h2>Atendimento</h2>
+        <ul>
+            <li><a target="_blank" href="https://wa.me/5511914463667?text=Olá! Vim pelo site! Gostaria de saber mais.">Fale conosco</a></li>
+            <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+           
+        </ul>
+    </div>
+     <div class="listFooter">
+        <h2>Informações</h2>
+        <ul>
+            <li>marcouros123@gmail.com</li>
+            <li><a target="_blank" href="https://wa.me/5511914463667?text=Olá! Vim pelo site! Gostaria de saber mais.">(11)91446-3667</a></li>
+            <li>Rua Conselheiro Olegário 231, Vila Anastácio - São Paulo-SP</li>
+        </ul>
+    </div>
+    
+    
+    
+
+</footer>
+
+ <div class="madeby">
+    <p>
+        Desenvolvido por <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/" target="_blank">Raphael Simonetti</a>
+    </p>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+
+<script src="../Js/main.js"></script>
+
+</html>

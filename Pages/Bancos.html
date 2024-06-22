@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+       
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/bancos.css">
+    <link rel="stylesheet" href="../css/menu-mobile.css">
+    <link rel="icon" href="../icons/MarcourosLogo.ico">
+    <title>Marcouros</title>
+</head>
+
+<body>
+
+    <header class="header" id="banner">
+        <div>
+            <nav class="navbar">
+             <a href="../default.php">
+                <img class="logo" src="../assets/MarcourosLogo.png" alt="">
+             </a>
+                <nav>
+                    <ul>
+                        <li><a  href="../default.php">Home</a></li>
+                        <li><a  style="cursor: pointer;" onclick="scrollToPlanoDaySobre()">Sobre</a></li>
+                        <li><a href="#Servico">Serviços</a></li> 
+                        <li><a href="#Ctc">Contato</a></li>
+                    </ul>
+                    
+                </nav>
+
+                <div class="menu-hamburguer">
+                    <input type="checkbox" id="menu-hamburguer" class="input-menu-hamburguer">
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="navMobile">
+
+        <h2>Menu</h2>
+
+        <ul>
+            <li><a onclick="fecharNav()" href="../default.php">Home</a></li>
+            <li><a  style="cursor: pointer;" onclick="fecharNav(),scrollToPlanoDaySobre()">Sobre</a></li>
+            <li><a href="#Servico" onclick="fecharNav()">Serviços</a></li>
+            <li><a onclick="fecharNav()" href="#Ctc">Contato</a></li>
+        </ul>
+
+
+
+
+
+    </nav>
+
+
+
+     <main class="nova-zen" id="desc-zen">
+        <section class="nova-zen-image">
+            <figure>
+                <img data-aos="slide-left" data-aos-duration="1500" src="../assetsPet/dogbom.png" alt="">
+            </figure>
+        </section>
+        <br>
+        <section class="nova-zen-text">
+            <article>
+                <h1>Personalização de Bancos</h1>
+                 <br>
+                <p>Bem-vindo à Marcouros, sua escolha premium em revestimentos automotivos de alta qualidade. 
+                    Com uma paixão pela excelência e inovação, oferecemos soluções que transcendem a estética, 
+                    proporcionando proteção duradoura aos veículos.
+                    <br>
+                    <br>
+                    
+                    Nossos revestimentos são desenvolvidos com a mais recente tecnologia, combinando estilo e 
+                    resistência para atender às demandas exigentes do mundo automotivo.
+                    
+                    <br>
+                    <br>
+                    Da personalização elegante à proteção robusta, cada produto reflete nossa dedicação à qualidade 
+                    e ao desempenho.
+                    
+                    <br>
+                    <br>
+                    Na Marcouros, acreditamos em ir além das expectativas. Nossa equipe comprometida está pronta 
+                    para transformar seu veículo, elevando não apenas sua aparência, mas também sua durabilidade. 
+                    Descubra a diferença que um revestimento automotivo de excelência pode fazer. Seu carro merece 
+                    o melhor, e nós estamos aqui para oferecer.</p>
+            </article>
+        </section>
+    </main>
+    
+    <section class="fotosGaleria" id="FotosGaleria">
+        <figure>
+            <img src="../galery/Banco1.JPG" alt="">
+            <img src="../galery/Banco2.JPG" alt="">
+            <img src="../galery/banco3.JPG" alt="">
+            <img src="../galery/Banco4.JPG" alt="">
+            <img src="../galery/Banco5.JPG" alt="">
+                                   
+        </figure>
+   </section>
+
+
+  <!-- <div class="relogio-container">
+    <img src="../icons/Relogio.png" alt="" class="relogio">
+    </div>
+
+   <article class="horas24">
+    <div class="geral">
+        <div class="conteudo">
+            <div class="inicio">
+                <h1 class="title241">ENTREGAS EM ATÉ 24 HRS</h1>
+            </div>
+            <div class="desc-24">
+                <div class="texto24">
+                    <p>Entendemos a importância de agilidade e eficiência para nossos clientes, por isso oferecemos um serviço de entrega em até 24 horas para revestimentos automotivos. Com logística eficiente e equipe dedicada, garantimos entregas rápidas sem comprometer a qualidade. Na Marcouros, redefinimos o atendimento ao cliente, oferecendo produtos e serviços excepcionais e uma experiência de entrega rápida e confiável, adaptando em suas necessidades.</p>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1 class="title242">EQUIPE ESPECIALIZADA</h1>
+                    </div>
+                    <p>Nossa equipe, apaixonada por automóveis e dedicada à excelência, é composta por profissionais qualificados e experientes. Unidos pela inovação e qualidade, eles são essenciais para nossa missão de oferecer revestimentos automotivos. Ao escolher nossos serviços, você investe em produtos de alta qualidade e em uma experiência única.</p>
+                </div>
+            </div>
+        </div>
+        <div class="vidio24">
+            <video controls autoplay loop muted>
+                <source src="../galery/take.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</article>
+-->
+
+
+    
+
+    <article class="desc-zen" id="Servico">
+        <figcaption class="desc-zen-image">
+            <img data-aos="slide-right" data-aos-duration="1500"
+                src="" alt="">
+            <div>
+                <h1>DEDICAMOS SERVIÇOS ESPECIALIZADOS PARA PERSONALIZAR E APRIMORAR O INTERIOR DE VEÍCULOS </h1>
+                <p>Variedade de opções!</p>
+            </div>
+        </figcaption>
+
+    <section class="desc-zen-section">
+				<div class="quadradinhos">
+					<img src="../icons/WhiteV.png" alt="">
+					<h2>VOLANTES</h2>
+					<p>A personalização do volante envolve a substituição ou revestimento do volante original em couro, melhorando a estética, conforto e duração. Permitindo uma sensação mais refinada ao dirigir.</p>
+                    <br>
+					<a href="texto.html?text=Cromoterapia">Ver mais</a>
+				  </div>
+				<div class="quadradinhos">
+					<img src="../icons//carro.png" alt="">
+					<h2>LATERAIS</h2>
+					<p>Revestimento do painel de couro de alta qualidade oferece diversos benefícios que o tornam uma escolha superior em relação aos painéis tradicionais de tecido ou plástico, tornando-o mais atraente em sua conservação.</p>
+					 <a href="texto.html?text=MusicaTerapia">Ver mais</a>
+				   <p></p>
+				</div>
+				<div class="quadradinhos">
+					<img src="../icons/Velocimetro.png" alt="">
+					<h2>PAINEÍS</h2>
+					<p>Revestimento do painel de couro de alta qualidade oferece diversos benefícios que o tornam uma escolha superior em relação aos painéis tradicionais de tecido ou plástico, tornando-o mais atraente em sua conservação.</p>
+					<br>
+					<a href="texto.html?text=Grounding">Ver mais</a> 
+				</div>
+                <div class="quadradinhos">
+					<img src="../icons/bmw.png" alt="">
+					<h2>LOGOMARCA</h2>
+					<p>Revestimento do painel de couro de alta qualidade oferece diversos benefícios que o tornam uma escolha superior em relação aos painéis tradicionais de tecido ou plástico, tornando-o mais atraente em sua conservação.</p>
+					<br>
+					<a href="texto.html?text=Grounding">Ver mais</a> 
+				</div>
+			</section>
+
+    </article> 
+    <section>
+        <div class="Qualidades">
+            <div class="qualidade-item">
+                <img src="../icons/Relogio.png" alt="">
+                <div class="texto">
+                    <h2>Entrega em 24hrs</h2>        
+                    <p>Entendemos a importância de agilidade e eficiência para nossos clientes, por isso oferecemos um serviço de entrega em até 24 horas para revestimentos automotivos. Com logística eficiente e equipe dedicada, garantimos entregas rápidas sem comprometer a qualidade. Na Marcouros, redefinimos o atendimento ao cliente, oferecendo produtos e serviços excepcionais e uma experiência de entrega rápida e confiável, adaptando em suas necessidades.</p>
+                </div>
+            </div>
+            <div class="qualidade-item">
+                <img src="../icons/credibilidade.png" alt="">
+                <div class="texto">
+                    <h2>Equipe Especializada</h2>
+                    <p>Nossa equipe, apaixonada por automóveis e dedicada à excelência, é composta por profissionais qualificados e experientes. Unidos pela inovação e qualidade, eles são essenciais para nossa missão de oferecer revestimentos automotivos. Ao escolher nossos serviços, você investe em produtos de alta qualidade e em uma experiência única.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+ 
+
+  
+
+
+    <main class="contato" id="Ctc">
+
+        <div>
+            <h1 class="title" id="TalkToMe">ENTRE EM CONTATO CONOSCO!</h1>
+        </div>
+		
+		
+
+        <div class="class-contato" >
+        <section class="cardcontato">
+        <div class="quadradinhosC" id="Maps">
+					<img src="../icons/localition75.png" alt="">
+                    <div>
+					<h2>Endereço</h2>
+					<p>Rua Conselheiro Olegário 231, Vila Anastácio - São Paulo-SP.</p>
+                    </div>
+					
+		</div>
+        <div class="quadradinhosC" id="Wpp" >
+					<img src="../icons/call75.png" alt="">
+                    <div>
+					<h2>Telefone</h2>
+					<p>(11)91446-3667</p>
+                    </div>
+					
+		</div>
+        <div class="quadradinhosC" id="Mail">
+					<img src="../icons/email.png" alt="">
+                    <div>
+					<h2>E-Mail</h2>
+					<p>marcouros123@gmail.com</p>
+                    </div>
+					
+		</div>
+        </section>
+            <form  action="Envia.php" name="formEnvia" method="POST" class="Contato" id="FormStilo" >
+                
+                <div class="inputs">
+                    
+                    <input type="text" name="Nome"  id= "teste" class="input"  placeholder="Nome"  required>
+                    <input type="email" name="Email" id="teste" class="input" placeholder="E-mail" required/>                   
+                    <input type="number" name="Telefone" required id="teste" class="input" placeholder="Número de Telefone" />
+                    <textarea required  name="Mensagem" placeholder="Escreva uma mensagem:" id="" cols="30" rows="10"></textarea>
+                </div>
+                 <button type="submit" id="buttonF">Enviar</button>
+            </form>
+			  
+        </div>
+       
+    </main>
+    
+    
+
+    <!-- BOTAO WHATSAPP -->
+   <!-- BOTAO WHATSAPP -->
+  
+	<a  class="btnInsta" href="#desc-zen">
+        <img width="50" src="../icons/upperr.png" alt="" style="cursor: pointer;" >
+    </a>
+    <a target="_blank" class="btnWhatsapp" href="https://wa.me/5511914463667?text=Olá! Vim pelo site! Gostaria de saber mais.">
+        <img width="50" src="../icons/whatsapp.png" alt="">
+    </a>
+    
+    <!--  -->
+
+    <footer id="footer">
+      <section class="LogoMarca">
+            <div>
+                
+                <img class="logo" src="../assets/MarcourosLogo.png" alt="">
+            </div>
+            
+            <div class="redesSociais">
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/MarcourosBrasil/">
+                        <img src="../icons/facebook.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/marcouros/">
+                        <img src="../icons/instagram (2).png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#Ctc">
+                        <img src="../icons/email.png" alt="" >
+                    </a>
+                </div>
+            </div>
+            <p id="marcouros">©Marcouros</p>
+            <p id="marcourosT">Todos os direitos reservados</p>
+        </section>
+
+        <div class="listFooter">
+            <h2>Atendimento</h2>
+            <ul>
+                <li><a target="_blank" href="https://wa.me/5511914463667?text=Olá! Vim pelo site! Gostaria de saber mais.">Fale conosco</a></li>
+                <li><a  style="cursor: pointer;" onclick="scrollToEmail()">Contato</a></li>
+               
+            </ul>
+        </div>
+         <div class="listFooter">
+            <h2>Informações</h2>
+            <ul>
+                <li>marcouros123@gmail.com</li>
+                <li><a target="_blank" href="https://wa.me/5511914463667?text=Olá! Vim pelo site! Gostaria de saber mais.">(11)91446-3667</a></li>
+                <li>Rua Conselheiro Olegário 231, Vila Anastácio - São Paulo-SP</li>
+            </ul>
+        </div>
+        
+        
+        
+
+    </footer>
+
+     <div class="madeby">
+        <p>
+            Desenvolvido por <a href="https://www.linkedin.com/in/raphael-fran%C3%A7a-simonetti-76b625249/" target="_blank">Raphael Simonetti</a>
+        </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+<script src="../Js/main.js"></script>
+
+</html>
