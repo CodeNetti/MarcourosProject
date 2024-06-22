@@ -1118,15 +1118,112 @@ textarea {
 }
 
 
+/* duvidas */
+
+.duvidas-drop {
+    background-color: rgb(26, 25, 25);
+    padding-top: 50px;
+}
+
+.duvidas-drop .listDrop h1 {
+    font-size: 4vh;
+    color: rgb(41, 133, 77);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ .duvidas-drop .listDrop li {
+    font-size: 3vh;
+    color: rgb(41, 133, 77);
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.duvidas-drop .listDrop h2 {
+    font-size: 3vh;
+    color: rgb(41, 133, 77);
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    position: relative; /* Para posicionamento da seta */
+}
+.duvidas-drop .listDrop h2:hover{ 
+    color: rgb(15, 233, 77) ;
+    
+}
+
+
+.duvidas-drop .listDrop ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.duvidas-drop .listDrop ul.expanded {
+    
+    max-height: 2000px; /* Suficientemente grande para o conteúdo. Pode ser ajustado conforme necessário */
+}
+
+.duvidas-drop .listDrop ul li {
+    color: rgb(255, 255, 255);
+    font-weight: 150;
+    text-align: center;
+    margin-left:2rem ;
+    margin-right: 2rem;
+    
+}
+.duvidas-drop .listDrop ul img {
+           
+            height:150px;
+    text-align: center;
+}
+
+
+#finaldrop{
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .duvidas-drop .listDrop ul li {
+        font-size: 2vh;
+        font-weight: 150;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .duvidas-drop .listDrop ul img {
+        height: 90px;
+        text-align: center;
+    }
+}
+
+
+
 
 /* FOOTER / RODAPÉ */
 footer {
-    background-color: black;
+    background-color: rgb(26, 25, 25);
     color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 165px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
@@ -1134,7 +1231,7 @@ footer {
 footer h1 {
     font-size: 5vh;
     margin: 20px;
-    color: rgba(0, 0, 0, 0.906);
+    color: rgb(41, 133, 77);
     font-weight: 500;
 }
 footer .listFooter {
@@ -1145,7 +1242,7 @@ footer .listFooter {
 }
 footer .listFooter h2 {
     font-size: 3.0vh;
-    color: rgba(0, 0, 0, 0.906);
+    color: rgb(41, 133, 77);
     font-weight: 500;
 }
 footer .listFooter ul {
@@ -1153,13 +1250,14 @@ footer .listFooter ul {
 }
 footer .listFooter ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 2.0vh;
+    color: white;
+    font-size: 2.3vh;
 }
 footer .listFooter ul li a:hover {
     text-decoration: underline;
-    color: rgb(212, 175, 55);
-    font-style: none;
+    color: rgb(14, 213, 70) ;
+    text-decoration: none;
+    
 
 }
 footer .redesSociais {
@@ -1194,13 +1292,8 @@ footer .redesSociais div img:hover {
     padding: 10px 0;
     color: white;
 }
+
 #marcouros{
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-    color: rgba(0, 0, 0, 0.906)
-}
-#marcouross{
     text-align: center;
     width: 100%;
     padding: 10px 0;
@@ -1218,4 +1311,10 @@ footer .redesSociais div img:hover {
         padding: 50px 0 60px 0;
        
     }
+    footer .listFooter h2 {
+        font-size: 3.0vh;
+        color: rgb(41, 133, 77);
+        font-weight: 500;
+        margin-top: 20px;
+      }
 }
