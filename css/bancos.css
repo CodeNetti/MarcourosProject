@@ -658,6 +658,8 @@ button {
         font-size: 1rem;
         color: rgb(0, 0, 0);
         max-width: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 

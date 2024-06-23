@@ -35,17 +35,8 @@
     transition: 0.2s;
 }
 
-@media screen and (max-width: 1400px) {
 
-    .navbar {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 20px 0;
-        align-items: center;
-        width: 80%;
-        transition: 0.2s;
-    }
-}
+
 .logo {
     width: 25vw;
     max-width: 200px;
@@ -470,11 +461,9 @@ Classe para a segunda imagem de fundo do carrossel
 
 
 #sobre-nos2{
-    padding-right: 500px;
     
 }
 #sobre-nos3{
-    padding-right: 370px;
     
 }
 .class-sobre-nos3{
@@ -492,9 +481,6 @@ Classe para a segunda imagem de fundo do carrossel
     text-align: center;
     font-size: 1.3rem;
     padding: 0rem 2rem 0rem 0rem;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 1.5s ease-out forwards;
     color: rgb(0, 0, 0);
     
     
@@ -504,9 +490,6 @@ Classe para a segunda imagem de fundo do carrossel
     text-align: right;
     font-size: 1.3rem;
     padding: 0rem 2rem 0rem 0rem;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 1.5s ease-out forwards;
     color: rgb(0, 0, 0);
     margin-left: 320px;
     
@@ -516,18 +499,12 @@ Classe para a segunda imagem de fundo do carrossel
     text-align: left;
     font-size: 1.3rem;
     padding: 0rem 2rem 0rem 6.25rem;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 1.5s ease-out forwards;
     color: rgb(0, 0, 0);
 }
 
 .texto-sobreR .titleR {
     max-width: 700px;
     text-align: right;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 1.5s ease-out forwards;
     margin-bottom: 0vh;
     color: rgb(41, 133, 77);
     font-size: 2.2rem;
@@ -536,9 +513,6 @@ Classe para a segunda imagem de fundo do carrossel
 .texto-sobreR .titleL {
     max-width: 700px;
     text-align: left;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 1.5s ease-out forwards;
     margin-bottom: 0vh;
     color: rgb(41, 133, 77);
     font-size: 2.2rem;
@@ -556,9 +530,6 @@ Classe para a segunda imagem de fundo do carrossel
     height: 500px;
     margin-top: 0px;
     text-align: right;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 2.5s ease-out forwards;
     background: linear-gradient(to bottom, rgb(14, 213, 70), rgb(41, 133, 77),  rgb(14, 213, 70));
     border-color:white;
     
@@ -570,9 +541,6 @@ Classe para a segunda imagem de fundo do carrossel
     height: 500px;
     margin-top: 0px;
     text-align: right;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 2.5s ease-out forwards;
     background: linear-gradient(to bottom, rgb(14, 213, 70), rgb(41, 133, 77),  rgb(14, 213, 70));
     border-color: rgb(255, 255, 255);
     
@@ -585,9 +553,6 @@ Classe para a segunda imagem de fundo do carrossel
     width: 10px;
     height: 220px;
     background-color: rgb(41, 133, 77);
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 2.5s ease-out forwards;
     border-color: black ;
     margin-top: 120px;
 }
@@ -596,9 +561,6 @@ Classe para a segunda imagem de fundo do carrossel
     width: 10px;
     height: 220px;
     background-color: rgb(255, 255, 255);
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 2.5s ease-out forwards;
     border-color: black ;
     margin-top: 60px;
 }
@@ -609,26 +571,17 @@ Classe para a segunda imagem de fundo do carrossel
     text-align: left;
     font-size: 1.3rem;
     padding: 2rem 2rem 0rem 3rem;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slide-in-left 1.5s ease-out forwards;
     color: rgb(0, 0, 0);
     border-color: white;
 }
 
 .texto-sobreL .title {
     text-align: left;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slide-in-left 1.5s ease-out forwards;
     margin-bottom: 0vh;
 }
 
 .listraL img {
     width: 250px;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slide-in-left 3.5s ease-out forwards;
     margin-left: 30px;
    
     
@@ -641,9 +594,6 @@ Classe para a segunda imagem de fundo do carrossel
     background-color:  rgb(255, 255, 255);
     margin-top: 30px;
     border-color: white;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slide-in-left 2.5s ease-out forwards;
     border-color: black ;
     margin-left: 300px;
 }
@@ -665,7 +615,6 @@ Classe para a segunda imagem de fundo do carrossel
 }
 .class-sobre-nos2 {
     display: flex;
-    transition: 0.5;
     gap: 0px;
     
 }
@@ -675,12 +624,10 @@ Classe para a segunda imagem de fundo do carrossel
     align-items: center;
     margin-right: 0px;
     gap: 0px;
-    transition: 0.5;
   }
 
 .class-sobre-nos3 {
     gap: 0px;
-    transition: 0.5;
     
   }
 
@@ -695,7 +642,7 @@ Classe para a segunda imagem de fundo do carrossel
     }
 
     .texto-sobreL {
-        width: 250px;
+        width: 100%;
         text-align: left;
         font-size: 0.8rem;
         padding-top: 0px;
@@ -713,9 +660,6 @@ Classe para a segunda imagem de fundo do carrossel
     height: 500px;
     margin-top: 0px;
     text-align: left;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 2.5s ease-out forwards;
     background: linear-gradient(to bottom, rgb(14, 213, 70), rgb(41, 133, 77),  rgb(14, 213, 70));
 }
 .listraR2 {
@@ -723,24 +667,17 @@ Classe para a segunda imagem de fundo do carrossel
     height: 500px;
     margin-top: 0px;
     text-align: left;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 2.5s ease-out forwards;
     background: linear-gradient(to bottom, rgb(14, 213, 70), rgb(41, 133, 77),  rgb(14, 213, 70));
 }
 
 .texto-sobreL .title {
     text-align: left;
-    opacity: 0;
     margin-top: 0px;
 }
 
 .texto-sobreR .title {
     max-width: 700px;
     text-align: right;
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slide-in-right 1.5s ease-out forwards;
     margin-bottom: 0vh;
     margin-top: 0px;
 }
@@ -764,14 +701,9 @@ Classe para a segunda imagem de fundo do carrossel
     margin-top: 30px;
     margin-left: 0px;
     margin-right: 0px;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slide-in-left 6.5s ease-out forwards;
 }
 .listraL img {
     width: 150px;
-    opacity: 0;
-    transform: translateX(-100%);
     margin-left: 0px;
     
 }
@@ -786,7 +718,7 @@ Classe para a segunda imagem de fundo do carrossel
     align-items: center;
 }
 
-
+/* 
 @keyframes slide-in-right {
     to {
         opacity: 1;
@@ -801,7 +733,7 @@ Classe para a segunda imagem de fundo do carrossel
     }
 }
 
-/* Adicionando delays diferentes para cada .texto-sobre */
+Adicionando delays diferentes para cada .texto-sobre 
 .texto-sobreR:nth-of-type(1),
 .texto-sobreL:nth-of-type(1) {
     animation-delay: 0.5s;
@@ -840,7 +772,7 @@ Classe para a segunda imagem de fundo do carrossel
 .listraTR:nth-of-type(3) {
     animation-delay: 1.5s;
 }
-
+*/
 .input {
     margin: 1rem;
     width: 25rem;
@@ -886,7 +818,7 @@ iframe {
     border: solid 1px rgb(41, 133, 77);
 }
 
-@media (max-width: 815px) {
+@media (max-width: 1400px) {
     .nova-moto-image figure img {
         width: 95vw;
         min-width: 490px;
@@ -971,9 +903,8 @@ iframe {
 @media screen and (max-width:1400px) {
 
     .desc-zen-image div {
-        padding: 60px 20px 60px 0px;
+        padding: 60px 0px 60px 0px;
         position: relative;
-        top: -170px;
     } 
 }
 
@@ -984,7 +915,7 @@ iframe {
     color: rgb(41, 133, 77);
     font-size: 2.5rem;
     font-weight: 400;
-    width: 70rem;
+    width: 100%;
     
 }
 
@@ -1076,10 +1007,8 @@ iframe {
         font-size: 1.7rem;
         font-weight: bolder; 
         color: rgb(41, 133, 77);      
-        width: 400px; 
-        padding-left: 15px;
+        width: 100%; 
         padding-bottom: 15px;
-        padding-top: 280px;
     }
 }
 
@@ -1229,7 +1158,7 @@ iframe {
     cursor: pointer; /* Indica que o elemento é clicável */
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:1400px) {
 
     .contato .cardcontato  .quadradinhosC {
         position: relative; /* Adicione position: relative aqui */
