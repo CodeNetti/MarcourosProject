@@ -445,9 +445,10 @@ Classe para a segunda imagem de fundo do carrossel
 }
 .class-sobre-nos2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+    gap: 130px;
+   
+    
+   
     
 }
 .class-sobre-nos1 {
@@ -486,12 +487,13 @@ Classe para a segunda imagem de fundo do carrossel
     
 }
 #VisaoeValores{
-    max-width: 700px;
+    max-width: 100%;
     text-align: right;
     font-size: 1.3rem;
     padding: 0rem 2rem 0rem 0rem;
     color: rgb(0, 0, 0);
-    margin-left: 320px;
+    margin-left: 380px;
+    margin-right: 320px;
     
 }
 .texto-sobreL {
@@ -537,7 +539,7 @@ Classe para a segunda imagem de fundo do carrossel
 
 
 .listraR2 {
-    width: 30%;
+    width: 23%;
     height: 500px;
     margin-top: 0px;
     text-align: right;
@@ -570,19 +572,23 @@ Classe para a segunda imagem de fundo do carrossel
     max-width: 700px;
     text-align: left;
     font-size: 1.3rem;
-    padding: 2rem 2rem 0rem 3rem;
+    padding: 0rem 2rem 0rem 0rem;
     color: rgb(0, 0, 0);
     border-color: white;
+    margin-right:400px;
 }
 
 .texto-sobreL .title {
     text-align: left;
     margin-bottom: 0vh;
 }
-
+.sobre-nos .class-sobre-nos2 .listraL{
+height: 0px;
+}
 .listraL img {
     width: 250px;
     margin-left: 30px;
+    margin-top: 10px;
    
     
 }
@@ -616,6 +622,9 @@ Classe para a segunda imagem de fundo do carrossel
 .class-sobre-nos2 {
     display: flex;
     gap: 0px;
+    padding-top: 50px;
+    margin-top: 0px;
+    
     
 }
 .class-sobre-nos1 {
@@ -647,6 +656,7 @@ Classe para a segunda imagem de fundo do carrossel
         font-size: 0.8rem;
         padding-top: 0px;
         padding-left: 20px;
+        padding-right: 8px;
     }
 
  
@@ -674,6 +684,10 @@ Classe para a segunda imagem de fundo do carrossel
     text-align: left;
     margin-top: 0px;
 }
+.texto-sobreL {
+    text-align: left;
+    margin-right:0px;
+}
 
 .texto-sobreR .title {
     max-width: 700px;
@@ -688,10 +702,21 @@ Classe para a segunda imagem de fundo do carrossel
     margin-right: 0px;
     padding: 0rem 1rem 0rem 0rem;
     margin-left: 30px;
+    padding-right: 0px;
 }
 #VisaoeValores .titleL, #VisaoeValores .titleR{
 
     font-size: 1.7rem;
+    
+}
+ #VisaoeValores .titleR{
+
+    padding-right: 10px;
+    
+}
+#VisaoeValores .pR, .pL{
+
+    padding-right: 10px;
     
 }
 .listraTL hr {
