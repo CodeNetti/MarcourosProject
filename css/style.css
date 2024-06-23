@@ -456,7 +456,7 @@ Classe para a segunda imagem de fundo do carrossel
     justify-content: center;
     align-items: center;
     margin-right: 0px;
-    gap: 150px;
+    
 }
 
 
@@ -609,6 +609,10 @@ height: 0px;
     text-align: left;
 }
 
+/* Mídia query para iPad Pro 1024x1366 pixels */
+
+  
+
 @media screen and (max-width: 1400px) {
 
     
@@ -629,10 +633,10 @@ height: 0px;
 }
 .class-sobre-nos1 {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 0px;
-    gap: 0px;
+    
+    width: 100%;
   }
 
 .class-sobre-nos3 {
@@ -641,11 +645,12 @@ height: 0px;
   }
 
     .texto-sobreR {
-        max-width: 350px;
+        max-width: 100%;
         text-align: right;
         font-size: 0.8rem;
-        padding: 6.25rem 0rem 0rem 3rem;
-        margin-right: 10px;
+        padding: 6.25rem 0rem 0rem 0rem;
+        padding-right: 10px;
+        padding-left: 30px;
         
         
     }
@@ -665,8 +670,8 @@ height: 0px;
     height: 0px;
     }
     
-.listraR,.listraR2 {
-    width: 100%;
+.listraR {
+    width: 340px;
     height: 500px;
     margin-top: 0px;
     text-align: left;
@@ -677,8 +682,11 @@ height: 0px;
     height: 500px;
     margin-top: 0px;
     text-align: left;
+    
     background: linear-gradient(to bottom, rgb(14, 213, 70), rgb(41, 133, 77),  rgb(14, 213, 70));
 }
+
+
 
 .texto-sobreL .title {
     text-align: left;
