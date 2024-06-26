@@ -554,7 +554,7 @@ button {
     justify-content: center;
    
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:1120px) {
     .desc-zen-image img {
         width: 60vw;
         top: -100px;
@@ -565,11 +565,11 @@ button {
         font-size: 1.4rem;
         font-weight: bolder;
         color: rgb(41, 133, 77);
-        width: 400px;
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        padding-top: 400px;
+        padding-top: 500px;
     }
     .desc-zen-section {
        
