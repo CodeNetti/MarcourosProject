@@ -569,7 +569,7 @@ button {
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        padding-top: 500px;
+        padding-top: 700px;
     }
     .desc-zen-section {
        
@@ -632,6 +632,7 @@ button {
         align-items: center; /* Centraliza o conteúdo */
         gap: 20px; /* Espaço entre a imagem e o texto */
         max-width: 100%; /* Usa toda a largura disponível */
+        margin-top: 150px;
     }
 
     .qualidade-item img {
@@ -888,7 +889,7 @@ video {
 
 .contato .cardcontato .quadradinhosC a{
     background-color:transparent;
-    color: rgb(14, 213, 70) ;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding:  15px 20px;
     text-decoration: none;
