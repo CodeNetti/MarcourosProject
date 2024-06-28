@@ -206,7 +206,7 @@ button {
 
 
 .banner-imagem-1 {
-    background: no-repeat center/cover url(../assets/banner.JPG);
+    background: no-repeat center/cover url(../assets/bannerJPG.png);
 }
 
 @media (max-width: 360px) {
@@ -218,21 +218,23 @@ button {
 @media (max-width: 375px) {
     
     .banner-imagem-1 {
-        background: no-repeat center/cover url(../assets/375\ x\ 667\ px.png);
+        background: no-repeat center/cover url(../assets/375-x-667-px.pdf.png);
     }
 }
-@media (max-width: 412px) {
+@media (min-width: 365px) and (max-width:800px) {
     
     .banner-imagem-1 {
-        background: no-repeat center/cover url(../assets/412\ x\ 915\ px.png);
+        background: no-repeat center/cover url(../assets/412-x-915-px.pdf.png);
     }
 }
-@media (max-width: 1450px) {
+
+@media (min-width: 801px) and (max-width:1080px) {
     
     .banner-imagem-1 {
-        background: no-repeat center/cover url(../assets/414\ x\ 896\ px.png);
+        background: no-repeat center/cover url(../assets/1080.pdf.png);
     }
 }
+
 
 
 
