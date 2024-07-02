@@ -464,12 +464,8 @@ Classe para a segunda imagem de fundo do carrossel
 
 
 
-#sobre-nos2{
-    
-}
-#sobre-nos3{
-    
-}
+  
+
 .class-sobre-nos3{
     gap: 50px;
     display: flex;
@@ -1060,6 +1056,95 @@ iframe {
         padding-bottom: 15px;
     }
 }
+
+.Qualidades {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.qualidade-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px; /* Espaço entre a imagem e o texto */
+    max-width: 48%; /* Ajusta conforme necessário para espaçamento adequado */
+}
+
+/*.qualidade-item img {
+    
+}*/
+
+.qualidade-item .texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.qualidade-item h2 {
+    max-width: 700px;
+    color: rgb(41, 133, 77);
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-bottom: 5px; /* Espaço entre o h2 e o p */
+}
+
+.qualidade-item p {
+    
+    font-size: 1.0rem;
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+}
+@media screen and (max-width: 1120px) {
+    .Qualidades {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column; /* Alinha os itens em coluna */
+        justify-content: flex-start; /* Alinha os itens no início */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        gap: 20px; /* Espaço entre os itens */
+        margin-bottom: 100px;
+    }
+
+    .qualidade-item {
+        display: flex;
+        flex-direction: column; /* Alinha a imagem e o texto em coluna */
+        align-items: center; /* Centraliza o conteúdo */
+        gap: 20px; /* Espaço entre a imagem e o texto */
+        max-width: 100%; /* Usa toda a largura disponível */
+        margin-top: 150px;
+    }
+
+    .qualidade-item img {
+        width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+        height: 100px;
+        margin-top: 20px; /* Ajuste conforme necessário */
+    }
+
+    .qualidade-item .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza o texto */
+        text-align: center; /* Centraliza o texto horizontalmente */
+    }
+
+    .qualidade-item h2 {
+        color: rgb(41, 133, 77);
+        font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+        font-weight: 500;
+        padding-bottom: 5px; /* Espaço entre o h2 e o p */
+   
+    }
+    .qualidade-item p {
+    
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        max-width: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 
 /*AVALIAÇÕES*/
 .titleAVA{
