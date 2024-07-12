@@ -24,8 +24,8 @@
                 <img class="logo" src="icons/MarcourosLogo.png" alt="">
                 <nav>
                     <ul>
-                        <li><a href="default.html">Home</a></li>
-                        <li><a style="cursor: pointer;" onclick="scrollToContact()">Sobre Nós</a></li>
+                        <li><a href="default.php">Home</a></li>
+                        <li><a style="cursor: pointer;" href="#SobreNos">Sobre Nós</a></li>
                         <li><a href="#Servico">Serviços</a></li>                      
                         <li><a href="#Ctc">Contato</a></li>
                     </ul>
@@ -50,7 +50,7 @@
         <h2>Menu</h2>
 
         <ul>
-            <li><a onclick="fecharNav()" href="default.html">Home</a></li>
+            <li><a onclick="fecharNav()" href="default.php">Home</a></li>
             <li><a onclick="fecharNav()" href="#Servico">Serviços</a></li>
             <li><a onclick="fecharNav()" href="Pages/Bancos.html">Bancos</a></li>
             <li><a onclick="fecharNav()" href="Pages/Volantes.html">Volantes</a></li>
@@ -87,7 +87,7 @@
         <div class="listraR">
         <hr>
         </div>
-            <div class="texto-sobreR" >
+            <div class="texto-sobreR"id="SobreNos" >
                 <h1 class="title">SOBRE NÓS</h1>
                     <p>Na empresa Marcouros acreditamos que seu carro merece mais do que apenas um revestimento. Oferecemos soluções premium em revestimentos automotivos desenvolvidos com paixão, excelência,  inovação e  proporcionando a estética da proteção duradoura ao seu veículo.
                     </p>
@@ -360,7 +360,7 @@
 					
 		</div>
         </section>
-            <form  action="Envia.php" name="formEnvia" method="POST" class="Contato" id="FormStilo" >
+            <form  action="mail/Envia.php" name="formEnvia" method="POST" class="Contato" id="FormStilo" >
                 
                 <div class="inputs">
                     
@@ -398,7 +398,7 @@
             
             <h2 id="DropPagamento">Formas de Pagamento ▼</h2>
             <ul class="dropdown">
-            <li id="DropCartao">Cartãoes ▼</li>
+            <li id="DropCartao">Cartões ▼</li>
                 <ul class="dropdown">
                     <li>Parcelamento em até 3 vezes sem juros</li>
                     <img src="assets/formasdepagamentocartoes.png" alt="">
